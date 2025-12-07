@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/exercises/config/logging.py
+src/exercises/core/__init__.py
+src/exercises/core/two_sum.py
+src/exercises/quant/__init__.py
+src/exercises/tests/test_two_sum.py
+src/practice.egg-info/PKG-INFO
+src/practice.egg-info/SOURCES.txt
+src/practice.egg-info/dependency_links.txt
+src/practice.egg-info/requires.txt
+src/practice.egg-info/top_level.txt

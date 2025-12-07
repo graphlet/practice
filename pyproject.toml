@@ -1,0 +1,29 @@
+[project]
+name = "practice"
+version = "0.1.0"
+description = "A small workspace for practicing Python coding problems (LeetCode, Project Euler, etc.)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "graphlet", email = "you@example.com" }
+]
+keywords = ["practice", "leetcode", "euler", "algorithms", "data-structures", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy>=1.24.4",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-q"
+testpaths = ["src", "tests", "exercises"]
+python_files = "test_*.py"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

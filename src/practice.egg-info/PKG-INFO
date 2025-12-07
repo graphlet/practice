@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: practice
+Version: 0.1.0
+Summary: A small workspace for practicing Python coding problems (LeetCode, Project Euler, etc.)
+Author-email: graphlet <you@example.com>
+License: MIT
+Keywords: practice,leetcode,euler,algorithms,data-structures,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24.4
+
+# practice
